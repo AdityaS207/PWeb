@@ -1,0 +1,107 @@
+<<<==== (HTML 1) ====>>>>
+
+<!DOCTYPE html> deklarasi untuk menunjukkan bahwa dokumen tersebut merupakan sebuah dokummen tipe HTML5
+
+Heading (<h>) terdapat 6 jenis, yakni <h1>, <h2>, ... <h6>. Urutan heading ini berdasarkan ukuran paling besar, dengan <h1> adalah yang terbesar hingga <h6> adalah terkecil.
+
+<a> adalah tag untuk menautkan link
+contohnya: 
+	- <a href="https://www.w3schools.com>
+
+<img> adalah tag untuk menampilkan gambar, dengan format (src) adalah suber filenya, (alt) adalah alternative text nya, "width" dan "height" untuk melampilkan lebar dan tinggi gambarnya
+contohnya:
+	- <img src="bochi_desu.png" alt="Bocchi" width="100" height="150">
+
+style adalah sebuah atribut yang digunakan untuk menambahkan sebuah fitur tampilan seperti warna,font, ukuran, dan lainnya
+
+title adalah atribut yang digunakan untuk menampilkan sebuah tampilan informasi extra yang akan pop up pada saat kita mengarahkan kursor ke tempat. 
+contohnya: 
+	- <img title="Bocchi" src="bocchi_desu.png" alt="Bocchi" width="250" height="250">
+
+??? pertanyaan : "Bagaimana untuk melakukan perubahan style pada bagian title?"
+
+Untuk tag komentar adalah sebagai berikut:
+	- <!--Ini adalah tag untuk komentar-->
+
+CSS dalam HTML:
+	- Inline -> ada style dalam sebuah tag
+	- Internal -> menggunakan tag <style> di dalam bagian tag <head>
+	- External -> menggunakan sebuah file CSS terpisah. Contohnya adalah <link rel="stylesheet" href="styles.css">
+
+Selanjutnya kita bisa menggunakan target untuk melakukan spesifikansi untuk membuka linked document. Contohnya adalah:
+	- _self : adalah default atau membuka linked documentnya pada link yang sama
+	- _blank : akan membuka dokumen pada tab baru
+	- _parent : akan membukan pada parent frame
+	- _top : akan membuka dokumennya pada tag body
+
+Absolute URL dan Relative URL
+relatif akan membuka folder pada saat ini kita bekerja. sehingga tidak dapat mengakses sebauh web lain karena kita tidak memiliki aksesnya.
+
+
+<<<==== (HTML 2) ====>>>>
+.........
+.........
+.........
+
+<br>&nbsp;<br>   -->  merupakan fungsi untuk menambahkan linespace (baris baru)
+
+Pada tag <table> kita membautuhkan tag <tr> dan <td>.
+
+<tr> sendiri adalah tag untuk menambahkan kolom
+<td> sendiri adalah tag untuk menambahkan baris
+sedangkan tag lainnya adalah <th> yagn merupakan tag header dari table tersebut.
+
+Untuk mengatur bordernya, kita bisa melakukannya pada bagain <body> ataupun secara internal di dalam tag <table>.
+
+Untuk menjaga jarak konten dari bordernya, kita dapat menggunakan (padding) untuk mengatur jarak konten dengan border. Padding ini akan otomatis menambahkan jarak kiri, kanan, atas, dan bawah.
+
+???"Apasih maksud dari border-spacing?"
+
+==> border-spacing adalah salah satu properti CSS yang digunakan untuk mengatur ruang antara sel-sel dalam tabel HTML. Properti ini tidak berhubungan langsung dengan HTML, tetapi digunakan untuk mengontrol tampilan tabel yang dibuat dengan tag HTML <table>. border-spacing mengontrol jarak antara sel-sel dalam tabel, baik di sekitar batas-batas sel maupun di antara sel-sel tersebut.
+
+==> Perlu di ingat bahwa border-spacing ini dapat berlaku ketika tablenya pada kondisi terpisah atau terdapat (border-collapse) yagn diatur ke "separate"
+
+Span berguna untuk menyatukan table atau kolom sesuai dengan perintah span yang diberikan. Misalkan "<th colspan="3">, artinya pada kolom pada baris headernya, kita akan menyatukan 3 buah kolom.
+
+Perintah span lainnya adalah rowspan, yakni untuk meyatukan barisnya. 
+
+Selanjutnya adalah List:
+	- Unordered List (tidak urut atau hanya berbentuk poin)
+		=> cara membentuk Unordered list adalah dengan tag <ul> dan setiap list menggunakan tag <li>
+	- Ordered List (terdapat urutan seperti 1, 2, 3, ...dst)
+		=> cara untuk membentuk Ordered list adalah dengan tag <ol> dan setiap list menggunakan tag <li>
+	- Description List (list yang mempunyai penjelasan)
+		=> cara untuk membentuk Description List ini adalah dengan tag <dl> dan setiap listnya menggunakan <dt> untuk namanya, dan <dd> untuk descripsinya
+
+
+<<<==== (HTML 3) ====>>>>
+
+HTML Block and Inline Elements
+
+-> Block adalah block-level element yang selalu memulai pada baris baru dan akan melakukan strech secara otomatis ke kiri atau ke kanan sejauh itu bisa (contohnya adalah <div> )
+
+-> Inline tidak akan memulai pada baris baru dan hanya akan menggunakan lebar sejauh yang dibutuhkan. Atau bisa kita katakan merupakan kebalikan dari "Block" (contohnya adalah <span>)
+
+HTML classes : 
+Kita dapat memberikan sebuah pengelompokan pada semua elemen yang ada. Hal ini dapat berguna seperti untuk memberikan Style yang sama pada class yang sama. Pada stylenya dapat menggunakan ".nama_class" untuk mendefinisikan classnya pada tag sytle dan lain-lain
+
+???"Apasih keuntungan lain dari penggunaan classes selain untuk mempermudah pengaturan CSSnya?"
+
+HTML id:
+Untuk id, kita akan menggunakan "#nama_id" untuk mendefinisikan id pada style.
+
+???"Apakah terdapat perbedaan lain dari classes dan id selain penggunaan tanda "." dan tanda "#" pada stylenya dan 'class=""' dan 'id=""'?"
+
+???"Apa keunggulan dari class dan id ini terhadap satu sama lain?"
+
+HTML Iframes:
+<iframe> adalah tag yang digunakan untuk menambahkan sebuah frame baru yang dari kita gunakan untuk menampilkan dokumen lainnya didalam dokumen HTML yang sedang kita gunakan.
+Penggunaanya adalah dengan <iframe src="url" title="description">
+
+<!!!>Pada iframe yang akan menunjukkan sebuah link harus diperhatikan bahwa kita tidak akan bisa menunjukkan sebuah website dengan tipe HTTPS namun kita bisa nemunjukkan website dengan tipe HTTP<!!!>
+
+&nbsp : agar spasinya bisa banyak
+
+.....
+.....
+.....
