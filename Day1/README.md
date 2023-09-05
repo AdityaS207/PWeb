@@ -1,0 +1,1 @@
+Isi dari file DAy 1 tidak dapat terecovery
