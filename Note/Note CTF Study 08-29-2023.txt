@@ -1,0 +1,22 @@
+Note CTF Study: 08-29-2023
+
+To keep our website from indexing, we can use robots.txt
+
+On the Apache server, we can use <.htaccess> to see another part of the website
+
+Then, in Macs, a <.DS_Store> file stores the configurations for how the desktop looks (eg. icon location, etc.) Changing
+
+When we found './JIFxzHyW8W', we can see the <./> and maybe we can use that to see directory on website
+Example : 
+	http://mercury.picoctf.net:37669/index.html ==
+	we can go with : 
+	http://mercury.picoctf.net:37669/JIFxzHyW8W ==
+After use this, some file was downloaded to the computer and maybe there is a clue to solve the prob :)
+
+UTF-8 is a Unicode character encoding method. This means that UTF-8 takes the code point for a given Unicode character and translates it into a string of binary. It also does the reverse, reading in binary digits and converting them back to characters.
+== Unicode is a character set. UTF-8 is encoding. == 
+
+Maybe there is a secret clue in the robots.txt on website exploitation
+
+When it come to cookies, the first thing we can do is see the admin. If we are not ht admin, we need to find a clue
+we can change the cookies to find another clue, or we can change admin status or value from 'False'(0) to 'True'(1)
