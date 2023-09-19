@@ -20,9 +20,11 @@ function equals(){
 }
 
 function del(){
+    result = document.getElementById("result");
+    result = result.slice(0,-1);
 }
 
-function clear(){
+function clearinput() {
     result = "";
     document.getElementById("result").value = result;
 }
