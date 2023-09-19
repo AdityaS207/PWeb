@@ -8,8 +8,18 @@
 <body>
     <h1>Calculator 2 Input</h1>
     <div class="calculator">
-        <input type="text">
+        <div id="input">
+        <input type="text" id="input1" placeholder="input1">
+        <input type="text" id="input2" placeholder="input2">
+        </div>
+        <p class="space"></p>
+        <button onclick="operator('/')">/</button>
+        <button onclick="operator('*')">*</button>
+        <button onclick="operator('-')">-</button>
+        <button onclick="operator('+')">+</button>
+        <p class="space"></p>
+        <input type="text" id="output" placeholder="output">
     </div>
-    
+<script src="Calculator2input.js"></script>
 </body>
 </html>
