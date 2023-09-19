@@ -20,14 +20,14 @@ function equals(){
 }
 
 // function calculate(){
-//     var input = document.getElementById("result");
-//     var numbers = input.split(/\+|-|\*|\//);
-//     var operators = input.split(/\d+/).filter(Boolean);
-//     var result = parseFloat(numbers[0]);
+//     let input = document.getElementById("result");
+//     let numbers = input.split(/\+|-|\*|\//);
+//     let operators = input.split(/\d+/).filter(Boolean);
+//     let result = parseFloat(numbers[0]);
 
-//     for (var i = 1; i < numbers.length; i++) {
-//         var number = parseFloat(numbers[i]);
-//         var operator = operators[i - 1];
+//     for (let i = 1; i < numbers.length; i++) {
+//         let number = parseFloat(numbers[i]);
+//         let operator = operators[i - 1];
 
 //         if (operator === "+") {
 //             result += number;
