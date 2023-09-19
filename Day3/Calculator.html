@@ -6,26 +6,30 @@
     <title>Calculator</title>
 </head>
 <body>
+    <h1>Calculator</h1>
     <div class="calculator">
         <input type="number" placeholder="0">
+        <p class="space"></p>
         <div class="buttons">
-            <button>Clear</button>
-            <button>/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>.</button>
-            <button>0</button>
-            <button>=</button>
+            <button onclick="clear()">Clear</button>
+            <p class="space"></p>
+            <button onclick="number()">1</button>
+            <button onclick="number()">2</button>
+            <button onclick="number()">3</button>
+            <button onclick="number()">4</button>
+            <button onclick="number()">5</button>
+            <button onclick="number()">6</button>
+            <button onclick="number()">7</button>
+            <button onclick="number()">8</button>
+            <button onclick="number()">9</button>
+            <button onclick="number()">0</button>
+            <button onclick="number()">.</button>
+            <p class="space"></p>
+            <button onclick="operator()">/</button>
+            <button onclick="operator()">*</button>
+            <button onclick="operator()">-</button>
+            <button onclick="operator()">+</button>
+            <button onclick="equals()">=</button>
 
         </div>
     </div>
