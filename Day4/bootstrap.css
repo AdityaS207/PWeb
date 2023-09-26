@@ -1,0 +1,8 @@
+.col{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    border: 1px black solid;
+    border-radius: 5%;
+}
